@@ -3,6 +3,12 @@
 
 #include <stdio.h>
 int main(){
-  printf("My name is Sunidhi R Latte. \n");
+  int a,b,c;
+  printf("Enter First Number : ");
+  scanf("%d", &a);
+  printf("Enter Second Number : ");
+  scanf("%d" ,&b);
+  c=a+b;
+  printf("the Sum of %d & %d is %d\n",a,b,c);
   return 0;
 }
