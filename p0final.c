@@ -1,9 +1,7 @@
-
-
-
-#include <stdio.h>
-int main(){
-  printf("My name is Sunidhi R. Latte : ");
+#include<stdio.h>
+int main()
+{
+  printf("My Name Is Sunidhi R Latte\n ");
   return 0;
 }
   
