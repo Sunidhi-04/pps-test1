@@ -1,5 +1,4 @@
- 
- gcc -g p4original.c
+gcc -g p4final.c
  gdb a.out
 GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
 Copyright (C) 2018 Free Software Foundation, Inc.
@@ -16,21 +15,11 @@ Find the GDB manual and other documentation resources online at:
 For help, type "help".
 Type "apropos word" to search for commands related to "word"...
 Reading symbols from a.out...done.
-(gdb) b main
-Breakpoint 1 at 0x663: file p4original.c, line 8.
 (gdb) r
-Starting program: /home/runner/pps-test1-6/a.out 
+Starting program: /home/runner/pps-test1-7/a.out 
 warning: Error disabling address space randomization: Operation not permitted
-
-Breakpoint 1, main () at p4original.c:8
-8     int a=5;
-(gdb) n
-9     change(a);
-(gdb) n
-10    printf("%d\n",a);
-(gdb) n
-5
-11    return 0;
-(gdb) c
-Continuing.
-[Inferior 1 (process 1504) exited normally
+Enter a Number 4
+Enter a Number5
+Enter a Number6
+The greatest Number of 4, 5, 6 is 6[Inferior 1 (process 2074) exited normally]
+(gdb) 
